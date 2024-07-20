@@ -3,6 +3,9 @@
 
 int main() {
     setup_default_uart();
-    printf("Hello, world!\n");
+    while(1){
+        printf("Hello, world!\n");
+        sleep_ms(1000);
+    }
     return 0;
 }
